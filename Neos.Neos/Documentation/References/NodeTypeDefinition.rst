@@ -3,7 +3,7 @@
 NodeType Definition Reference
 =============================
 
-THe manual to understand NodeType definitions can be found in the Neos Docs (https://docs.neos.io/cms/manual/content-repository/nodetype-definition).
+The manual to understand NodeType definitions can be found in the Neos Docs (https://docs.neos.io/cms/manual/content-repository/nodetype-definition).
 
 The following options are allowed for defining a NodeType:
 
@@ -55,7 +55,7 @@ The following options are allowed for defining a NodeType:
   Here is an example::
 
     childNodes:
-      someChild:
+      'some-child':
         type: 'Neos.Neos:ContentCollection'
         constraints:
           nodeTypes:
@@ -68,7 +68,7 @@ The following options are allowed for defining a NodeType:
 
     'Neos.NodeTypes:Page':
       childNodes:
-        'someChild':
+        'some-child':
           type: 'Neos.Neos:ContentCollection'
           position: 'before main'
 
